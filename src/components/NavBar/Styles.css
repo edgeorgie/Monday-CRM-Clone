@@ -1,0 +1,28 @@
+nav {
+  height: 100vh;
+  width: 5%;
+  background-color: rgb(43, 43, 63);
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-container,
+.controls-container {
+  padding: 10px 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-container img {
+  width: 30px;
+}
+
+.icon svg {
+  color: white;
+  width: 62px;
+
+}
